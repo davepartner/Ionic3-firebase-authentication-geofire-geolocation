@@ -1,0 +1,80 @@
+<!--
+  Generated template for the UserEdit page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Edit Your Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+
+<ion-content>
+
+<ion-card>
+  <img src="{[userDetails.profilePic}}"/>
+  <ion-card-content>
+    <ion-card-title>
+      {{first_name}} {{last_name}}
+      </ion-card-title>
+    <p>
+      {{about}}
+    </p>
+  </ion-card-content>
+</ion-card>
+
+
+  <form >
+    <ion-list>
+    
+      <ion-item >
+        <ion-label stacked>Skill Set (separate with comma)</ion-label>
+        <ion-input type="text" [(ngModel)]="skills" name="skills" placeholder="eg. PHP, Writing, Chef" required="required"></ion-input>
+      </ion-item>
+      
+
+
+<hr/>
+      <ion-item>
+        <ion-label stacked>First name</ion-label>
+        <ion-input type="text" [(ngModel)]="first_name" name="first_name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Last name</ion-label>
+        <ion-input type="text" [(ngModel)]="last_name" name="last_name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>City</ion-label>
+        <ion-input type="text" [(ngModel)]="city" name="city"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>State/Province</ion-label>
+        <ion-input type="text" [(ngModel)]="state" name="state"></ion-input>
+      </ion-item>
+
+
+      <ion-item >
+        <ion-label stacked>Phone</ion-label>
+        <ion-input type="text" [(ngModel)]="phone" name="phone" placeholder="eg. 0802222222" required="required"></ion-input>
+      </ion-item>
+
+
+
+     
+
+      <div padding text-center>
+        <button ion-button color="danger" round  (click)="updateProfile()">Update Profile </button>
+      </div>
+
+    </ion-list>
+  </form>
+</ion-content>
+

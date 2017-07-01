@@ -1,0 +1,65 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ userDislplayName }}</ion-title>
+  
+  <ion-buttons end>
+      <button ion-button icon-only (click)="editProfile()">
+        <ion-icon name="create"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="logUserOut()">
+        <ion-icon name="power"></ion-icon>
+      </button>
+    </ion-buttons>
+</ion-navbar>
+  
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/advance-card-bttf.png">
+    </ion-avatar>
+    <h2>{{userDislplayName}}</h2>
+    <p>{{userCity}} , {{userState}}</p>
+  </ion-item>
+
+  <img src="assets/img/marty-avatar.png">
+
+<ion-card *ngIf="userAbout">
+
+  <ion-card-header>
+   About
+  </ion-card-header>
+
+  <ion-card-content>
+   {{userAbout}}
+  </ion-card-content>
+
+</ion-card>
+
+
+  <ion-item>
+    <span item-left>18 min away</span>
+    <span item-left>(2.6 mi)</span>
+    <button ion-button icon-left clear item-right>
+      <ion-icon name="navigate"></ion-icon>
+      View Map
+    </button>
+  </ion-item>
+<button ion-button block  color="light" *ngIf="userPhone"><ion-icon name="call"></ion-icon> &nbsp; {{userPhone}}</button>
+  
+  
+
+  <ion-item>
+    <ion-icon name="cog" item-left large></ion-icon>
+    <h2>{{userSkills}}</h2>
+    <p>Several years experience </p>
+  </ion-item>
+
+
+</ion-card>
+</ion-content>

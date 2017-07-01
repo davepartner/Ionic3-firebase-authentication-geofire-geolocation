@@ -1,0 +1,35 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title> <ion-icon name="code-working"></ion-icon> Professional nearby</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addVacancy()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let user of userPostsLists">
+      <button ion-item (click)="viewUser(user.key)">
+        <ion-avatar item-left>
+          <img [src]="user.profilePic" />
+        </ion-avatar>
+        <h2>{{user.first_name}} {{user.last_name}}</h2>
+        <p>{{user.city}}, {{user.state}}</p>
+        <ion-note item-right *ngIf="user.note">{{user.note}}</ion-note>
+      </button>
+
+     <!-- <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(user)">
+          {{ 'DELETE_BUTTON' | translate }}
+        </button>
+      </ion-item-options> -->
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

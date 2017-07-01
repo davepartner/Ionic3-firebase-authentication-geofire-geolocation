@@ -1,0 +1,57 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center> {{ 'LOGIN_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<div class="splash-logo"></div>
+<br/>
+<br/>
+  <form >
+    <ion-list>
+     <!-- <ion-item>
+        <ion-label fixed>{{ 'EMAIL' | translate }}</ion-label>
+        <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+      </ion-item> -->
+      <ion-item>
+        <ion-label stacked>Email</ion-label> 
+        <ion-input type="email" [(ngModel)]="email" name="email"  required="required"></ion-input>
+      </ion-item>
+
+      <!--
+      Want to use a Username instead of an Email? Here you go:
+
+      <ion-item>
+        <ion-label floating>{{ 'USERNAME' | translate }}</ion-label>
+        <ion-input type="text" [(ngModel)]="account.username"></ion-input>
+      </ion-item>
+      -->
+
+      <ion-item>
+        <ion-label stacked>{{ 'PASSWORD' | translate }}</ion-label>
+        <ion-input type="password" [(ngModel)]="password" name="password" required="required"></ion-input>
+      </ion-item>
+
+      <div padding text-center>
+       
+         <button *ngIf="email && password " ion-button color="danger" round (click)="submitLogin()">{{ 'LOGIN_BUTTON' | translate }}</button>
+        <!-- Show dead button if form is not filled -->
+        <button *ngIf="!email && !password" ion-button color="danger" clear round>Login Now</button>
+        
+        
+      </div>
+     
+
+    </ion-list>
+  </form>
+  
+   <br/>
+      
+      <div padding text-center>
+        <button ion-button color="gray" block clear (click)="redirectToSignup()">Create new account</button>
+      </div>
+</ion-content>

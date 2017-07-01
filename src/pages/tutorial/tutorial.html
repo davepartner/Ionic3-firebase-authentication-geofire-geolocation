@@ -1,0 +1,32 @@
+<ion-header no-shadow>
+  <ion-navbar>
+      <ion-title >Quick Hire</ion-title>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="light">{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides  (ionWillChange)="onSlideChangeStart($event)">
+    <ion-slide *ngFor="let slide of slides">
+      <img [src]="slide.image" class="slide-image" style="border-radius: 10px;"/>
+      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+      <p [innerHTML]="slide.description"></p>
+
+      <br/>
+      <button ion-button round color="primary" clear block><<< Slide To The Left</button>
+
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">Are you ready? Let's go there!</h2>
+
+
+      <button ion-button icon-right large warning color="danger" (click)="startApp()">
+        {{ 'TUTORIAL_CONTINUE_BUTTON' | translate }}
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
