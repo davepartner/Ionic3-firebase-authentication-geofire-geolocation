@@ -1,29 +1,16 @@
-# QuickHire#
+# Ionic 3 App with Firebase as Backend - user authentication, geolocation and geofire are included
 
-This is a location based employee-employer platform.
+## Installation
+* Clone this repository
+* Navigate into the root folder and run `npm install`. 
+After which you run `ionic serve`.
 
-### What is this repository for? ###
+Be sure you have nodejs, ionic and cordova installed before installing this app.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## How to thank me
+* Star this repo
+* Subscribe to my youtube programming tutorial channel => (Braintemple Tutorial TV)[https://youtube.com/c/braintemorg?sub_confirmation=1]
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## How to contact me
+Email me: daveozoalor@gmail.com 
+Chat with me on [Facebook](http://facebook.com/daveozoalor)
