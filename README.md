@@ -3,7 +3,10 @@
 ## Installation
 * Clone this repository
 * Navigate into the root folder and run `npm install`. 
-After which you run `ionic serve`.
+* Run `run npm install ng2-translate --save`
+* Run `run npm install ionic-native --save`
+* After which you run `ionic serve`
+
 
 Be sure you have nodejs, ionic and cordova installed before installing this app.
 
