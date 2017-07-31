@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "name": "cordova-plugin-compat",
+        "raw": "cordova-plugin-compat@1.0.0",
+        "rawSpec": "1.0.0",
+        "scope": null,
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "C:\\wamp64\\www-real\\datong3"
+    ]
+  ],
+  "_from": "cordova-plugin-compat@1.0.0",
+  "_id": "cordova-plugin-compat@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-compat",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-compat-1.0.0.tgz_1459869228517_0.12971219676546752"
+  },
+  "_npmUser": {
+    "email": "simon.macdonald@gmail.com",
+    "name": "macdonst"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-compat",
+    "raw": "cordova-plugin-compat@1.0.0",
+    "rawSpec": "1.0.0",
+    "scope": null,
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-compat/-/cordova-plugin-compat-1.0.0.tgz",
+  "_shasum": "54b773fa6a212fe8e60ad496bacb57aa01da4232",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-compat@1.0.0",
+  "_where": "C:\\wamp64\\www-real\\datong3",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-compat/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-compat",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "This repo is for remaining backwards compatible with previous versions of Cordova.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "54b773fa6a212fe8e60ad496bacb57aa01da4232",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-compat/-/cordova-plugin-compat-1.0.0.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.0.0"
+    }
+  ],
+  "gitHead": "c10a3151f1b0113ade3a7f6d5136b508ffdcfb76",
+  "homepage": "http://github.com/apache/cordova-plugin-compat#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "email": "simon.macdonald@gmail.com",
+      "name": "macdonst"
+    }
+  ],
+  "name": "cordova-plugin-compat",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apache/cordova-plugin-compat.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}

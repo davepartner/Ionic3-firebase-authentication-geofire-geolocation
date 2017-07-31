@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-mauron85-background-geolocation": {
+            "ACCOUNT_TYPE": "$PACKAGE_NAME.account",
+            "CONTENT_AUTHORITY": "$PACKAGE_NAME",
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.datong3172150"
+        }
+    }
+}
