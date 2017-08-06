@@ -12,7 +12,7 @@ Be sure you have nodejs, ionic and cordova installed before installing this app.
 
 ## How to thank me
 * Star this repo
-* Subscribe to my youtube programming tutorial channel => (Braintemple Tutorial TV)[https://youtube.com/c/braintemorg?sub_confirmation=1]
+* Subscribe to my youtube programming tutorial channel => [Braintemple Tutorial TV](https://youtube.com/c/braintemorg?sub_confirmation=1)
 
 ## How to contact me
 Email me: daveozoalor@gmail.com 
